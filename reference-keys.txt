@@ -2,6 +2,15 @@ welcome
 intro
 what-is-mse
 first-mse
+objectives
+management-objectives-metrics
+op-mods
+designing-operating-models
+coding-oms
+oms-revisited
+implementation
+management
+selecting-management-strategies
+communication
+presenting-results
 case-studies
-developing-objectives-candidate-strategies
-project-needs
