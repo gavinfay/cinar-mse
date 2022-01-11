@@ -2,6 +2,7 @@ welcome
 intro
 what-is-mse
 first-mse
+day-1-zoom-recording
 objectives
 management-objectives-metrics
 op-mods
