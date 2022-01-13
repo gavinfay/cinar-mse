@@ -14,4 +14,6 @@ management
 selecting-management-strategies
 communication
 presenting-results
+ecosystem-mse
+multispecies-mses
 case-studies
