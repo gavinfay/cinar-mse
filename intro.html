@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 2 Introduction to MSE | Introduction to Management Strategy Evaluation</title>
   <meta name="description" content="This is a CINAR training workshop held remotely 10-14 January 2022" />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 2 Introduction to MSE | Introduction to Management Strategy Evaluation" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Gavin Fay" />
 
 
-<meta name="date" content="2022-01-14" />
+<meta name="date" content="2022-01-07" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,9 +32,9 @@
   
   
 <link rel="prev" href="index.html"/>
-<link rel="next" href="objectives.html"/>
-<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+
+<script src="libs/header-attrs-2.8/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -50,24 +50,24 @@
 
 
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+
 <link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
 
 <style type="text/css">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -87,7 +87,7 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -139,9 +139,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="https://github.com/gavinfay/cinar-mse/">← Go to GitHub repo</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Welcome</a><ul>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Welcome</a>
+<ul>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#agenda"><i class="fa fa-check"></i>Agenda</a></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#pre-workshop-preparations-15-minutes"><i class="fa fa-check"></i>Pre-workshop preparations (15 minutes)</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#pre-workshop-preparations-15-minutes"><i class="fa fa-check"></i>Pre-workshop preparations (15 minutes)</a>
+<ul>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#rstudio-cloud"><i class="fa fa-check"></i>RStudio Cloud</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#r-rstudio-on-own-machine"><i class="fa fa-check"></i>R &amp; RStudio on own machine</a></li>
 </ul></li>
@@ -149,38 +151,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#licensing"><i class="fa fa-check"></i>Licensing</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#acknowledgements"><i class="fa fa-check"></i>Acknowledgements</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Introduction to MSE</a><ul>
+<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Introduction to MSE</a>
+<ul>
 <li class="chapter" data-level="2.1" data-path="intro.html"><a href="intro.html#what-is-mse"><i class="fa fa-check"></i><b>2.1</b> What is MSE?</a></li>
 <li class="chapter" data-level="2.2" data-path="intro.html"><a href="intro.html#first-mse"><i class="fa fa-check"></i><b>2.2</b> My first MSE</a></li>
-<li class="chapter" data-level="2.3" data-path="intro.html"><a href="intro.html#day-1-zoom-recording"><i class="fa fa-check"></i><b>2.3</b> Day 1 Zoom recording</a></li>
-</ul></li>
-<li class="chapter" data-level="3" data-path="objectives.html"><a href="objectives.html"><i class="fa fa-check"></i><b>3</b> Objectives &amp; Performance Metrics</a><ul>
-<li class="chapter" data-level="3.1" data-path="objectives.html"><a href="objectives.html#management-objectives-metrics"><i class="fa fa-check"></i><b>3.1</b> Management Objectives &amp; Metrics</a></li>
-</ul></li>
-<li class="chapter" data-level="4" data-path="op-mods.html"><a href="op-mods.html"><i class="fa fa-check"></i><b>4</b> Operating Models</a><ul>
-<li class="chapter" data-level="4.1" data-path="op-mods.html"><a href="op-mods.html#designing-operating-models"><i class="fa fa-check"></i><b>4.1</b> Designing Operating Models</a></li>
-<li class="chapter" data-level="4.2" data-path="op-mods.html"><a href="op-mods.html#coding-oms"><i class="fa fa-check"></i><b>4.2</b> Implementing Operating Models</a></li>
-<li class="chapter" data-level="4.3" data-path="op-mods.html"><a href="op-mods.html#oms-revisited"><i class="fa fa-check"></i><b>4.3</b> Additional Operating Model considerations</a></li>
-<li class="chapter" data-level="4.4" data-path="op-mods.html"><a href="op-mods.html#implementation"><i class="fa fa-check"></i><b>4.4</b> Policy testing with constraints - adding Implementation Error</a></li>
-</ul></li>
-<li class="chapter" data-level="5" data-path="management.html"><a href="management.html"><i class="fa fa-check"></i><b>5</b> Management Strategies</a><ul>
-<li class="chapter" data-level="5.1" data-path="management.html"><a href="management.html#selecting-management-strategies"><i class="fa fa-check"></i><b>5.1</b> Selecting Management Strategies</a></li>
-</ul></li>
-<li class="chapter" data-level="6" data-path="communication.html"><a href="communication.html"><i class="fa fa-check"></i><b>6</b> Communication</a><ul>
-<li class="chapter" data-level="6.1" data-path="communication.html"><a href="communication.html#presenting-results"><i class="fa fa-check"></i><b>6.1</b> Presenting Results</a></li>
-</ul></li>
-<li class="chapter" data-level="7" data-path="ecosystem-mse.html"><a href="ecosystem-mse.html"><i class="fa fa-check"></i><b>7</b> Ecosystem MSEs</a><ul>
-<li class="chapter" data-level="7.1" data-path="ecosystem-mse.html"><a href="ecosystem-mse.html#multispecies-mses"><i class="fa fa-check"></i><b>7.1</b> Multispecies MSEs</a></li>
-</ul></li>
-<li class="chapter" data-level="8" data-path="grab-bag.html"><a href="grab-bag.html"><i class="fa fa-check"></i><b>8</b> Additional MSE topics</a><ul>
-<li class="chapter" data-level="8.1" data-path="grab-bag.html"><a href="grab-bag.html#choose-your-own-adventure"><i class="fa fa-check"></i><b>8.1</b> Choose Your Own Adventure</a></li>
-</ul></li>
-<li class="chapter" data-level="9" data-path="case-studies.html"><a href="case-studies.html"><i class="fa fa-check"></i><b>9</b> Case Study Projects</a><ul>
-<li class="chapter" data-level="" data-path="case-studies.html"><a href="case-studies.html#developing-objectives-candidate-strategies"><i class="fa fa-check"></i>Developing objectives &amp; candidate strategies</a></li>
-<li class="chapter" data-level="" data-path="case-studies.html"><a href="case-studies.html#project-needs"><i class="fa fa-check"></i>Relevant OM &amp; HCR needs for case studies</a></li>
-<li class="chapter" data-level="" data-path="case-studies.html"><a href="case-studies.html#project-coding1"><i class="fa fa-check"></i>Breakout group project coding episode 1</a></li>
-<li class="chapter" data-level="" data-path="case-studies.html"><a href="case-studies.html#project-coding2"><i class="fa fa-check"></i>Breakout group project coding episode 2</a></li>
-<li class="chapter" data-level="" data-path="case-studies.html"><a href="case-studies.html#project-summaries"><i class="fa fa-check"></i>Project Summaries</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -202,49 +176,42 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="intro" class="section level1">
+<div id="intro" class="section level1" number="2">
 <h1><span class="header-section-number">Chapter 2</span> Introduction to MSE</h1>
-<p>(Monday 10-12)
-(Monday 1-3)</p>
+<p>(Monday 10-12)</p>
 <p>This session begins with introductions, our roles &amp; responsibilities, models for communication.</p>
 <div class="slide-deck">
 <p><strong>Welcome</strong></p>
 <div class="slides">
-<p><a href="https://docs.google.com/presentation/d/1-8vz18TwqXSQ_-XOZzNplI1VTJGHE6NsdQZ1Kokq9TY/edit?usp=sharing">Slides</a></p>
+<!-- <!-- [Slides](https://docs.google.com/presentation/d/140ghe7ub5dq_yNyrS0wyfwE7tHb2v19nflBKSLUwq4Y/edit?usp=sharing) -->
+<p>–&gt;</p>
 </div>
 </div>
-<div id="what-is-mse" class="section level2">
+<div id="what-is-mse" class="section level2" number="2.1">
 <h2><span class="header-section-number">2.1</span> What is MSE?</h2>
 <p>An introduction to MSE, including a web-based ‘toy’ MSE app to overview the components and mechanics of MSE.</p>
 <div class="slide-deck">
 <p><strong>Introduction to MSE</strong></p>
 <div class="slides">
-<p><a href="https://docs.google.com/presentation/d/14IXDG1BpOzY2AbOIWe5H-PPYpkafip4uOjhWhCkWmBE/edit?usp=sharing">Slides</a></p>
+<p><a href="https://docs.google.com/presentation/d/1UFPdiKoZupxStMVKKUREjrF-o8XmGXNtIUvnweYE0sQ/edit?usp=sharing">Slides</a></p>
 </div>
 <div class="source">
 <p><a href="https://puntapps.shinyapps.io/tunamse/">Toy MSE (c/o AE Punt)</a></p>
 </div>
 </div>
 </div>
-<div id="first-mse" class="section level2">
+<div id="first-mse" class="section level2" number="2.2">
 <h2><span class="header-section-number">2.2</span> My first MSE</h2>
 <div class="application-exercise">
 <p><strong>My first MSE (R tutorial / exercise)</strong></p>
 </div>
-<p>The best way to interact with the tutorial is through <a href="https://github.com/gavinfay/cinar-mse/issues/2">RStudio</a> or <a href="https://github.com/gavinfay/cinar-mse/issues/1">RStudio Cloud</a>.</p>
-<div class="source">
-<p><a href="https://github.com/gavinfay/cinar-mse/tree/main/materials/exercises/day-01/my-first-mse.Rmd">R Markdown</a></p>
-</div>
-<div class="tutorial">
-<p><a href="https://github.com/gavinfay/cinar-mse/tree/main/materials/exercises/day-01/my-first-mse.pdf">knitted pdf</a></p>
-</div>
-</div>
-<div id="day-1-zoom-recording" class="section level2">
-<h2><span class="header-section-number">2.3</span> Day 1 Zoom recording</h2>
-<div class="microphone">
-<p><a href="https://umassd.zoom.us/rec/share/hY5NeqN3f5SWHU5mSheH7KQ3YynFQTgOSWBAkTisrsn56oFbdCmUR116RvdJhklP.Js2mzUWkMjvyar58">Zoom recording</a>
-<a href="https://umassd.zoom.us/rec/share/yTTCcaMWVTtWOLBDCD3Wf5MlmHyH68fA-3KFouUNdJBcKGEI3EAeKJJwEPvphNiD.NcM7py-JNL3UPCK8">Zoom recording with transcript</a></p>
-</div>
+<!-- The best way to interact with the tutorial is through [RStudio](https://github.com/gavinfay/cinar-mse/issues/2) or [RStudio Cloud](https://github.com/gavinfay/cinar-mse/issues/1). -->
+<!-- ::: {.source} -->
+<!-- <!-- [R Markdown](https://github.com/gavinfay/asmfc-mse/tree/main/materials/exercises/day-01/my-first-mse.Rmd) -->
+<!-- ::: -->
+<!-- ::: {.tutorial} -->
+<!-- <!-- [knitted pdf](https://github.com/gavinfay/asmfc-mse/tree/main/materials/exercises/day-01/my-first-mse.pdf) -->
+<!-- ::: -->
 
 </div>
 </div>
@@ -253,11 +220,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="objectives.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="index.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -297,10 +265,6 @@ gitbook.start({
 "text": null
 },
 "download": ["CINAR Intro MSE.epub"],
-"search": {
-"engine": "fuse",
-"options": null
-},
 "toc": {
 "collapse": "subsection"
 }
